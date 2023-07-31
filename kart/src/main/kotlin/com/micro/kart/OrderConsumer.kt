@@ -1,4 +1,4 @@
-package com.micro.shop
+package com.micro.kart
 
 import io.micronaut.configuration.kafka.annotation.KafkaListener
 import io.micronaut.configuration.kafka.annotation.Topic
@@ -15,6 +15,6 @@ class OrderConsumer {
     private val logger: Logger = LoggerFactory.getLogger(OrderConsumer::class.java)
     @Topic("order-producer")
     fun receive(itemQuotes: List<ItemQuote>) {
-        logger.debug("Consuming Orders {}", itemQuotes.toString())
+        logger.debug("Consuming Orders In Kart {}", itemQuotes.toString())
     }
 }
