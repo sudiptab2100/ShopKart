@@ -1,0 +1,20 @@
+[
+  {
+    "itemID": 1,
+    "itemName": "Item1",
+    "price": 100,
+    "count": 100
+  },
+  {
+    "itemID": 2,
+    "itemName": "Item2",
+    "price": 200,
+    "count": 10
+  },
+  {
+    "itemID": 3,
+    "itemName": "Item3",
+    "price": 300,
+    "count": 1
+  }
+]
